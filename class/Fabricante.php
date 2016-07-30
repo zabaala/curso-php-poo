@@ -43,12 +43,20 @@ class Fabricante
         return $this->nome;
     }
 
+    /**
+     * Adiciona uma lista de produtos ao Fabricante.
+     * @param array $p
+     */
     public function setProdutos($p = []) {
         if(count($p)) {
             $this->produtos[] = $p;
         }
     }
 
+    /**
+     * Recupera a lista de produtos do fabricante.
+     * @return array
+     */
     public function getProdutos() {
         return $this->produtos;
     }
