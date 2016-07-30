@@ -1,9 +1,8 @@
 <?php
+require_once 'vendor/autoload.php';
 
-require_once 'class/Util.php';
-require_once 'class/Conta.php';
-require_once 'class/ContaPoupanca.php';
-require_once 'class/ContaCorrente.php';
+use App\Classes\ContaCorrente;
+use App\Classes\ContaPoupanca;
 
 $contas = [];
 $contas[] = new ContaCorrente('6677', '1234-56', 100, 500);

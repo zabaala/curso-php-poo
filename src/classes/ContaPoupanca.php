@@ -1,4 +1,5 @@
 <?php
+namespace App\Classes;
 
 final class ContaPoupanca extends Conta
 {

@@ -1,10 +1,10 @@
 <?php
 
-require_once "class/Util.php";
-require_once "class/Produto.php";
-require_once "class/Fabricante.php";
-require_once "class/Caracteristica.php";
-require_once "class/Cesta.php";
+require_once 'vendor/autoload.php';
+
+use App\Classes\Cesta;
+use App\Classes\Produto;
+use App\Classes\Util;
 
 $cesta = new Cesta();
 $cesta->addItem(new Produto('Mochila', 5, 2.50));

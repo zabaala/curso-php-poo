@@ -1,10 +1,10 @@
 <?php
 
-include 'class/Util.php';
-include 'class/OrcamentoInterface.php';
-include 'class/Orcamento.php';
-include 'class/Produto.php';
-include 'class/Servico.php';
+require_once 'vendor/autoload.php';
+
+use App\Classes\Orcamento;
+use App\Classes\Produto;
+use App\Classes\Servico;
 
 $orcamento = new Orcamento();
 $orcamento->adicionar(new Produto('Maquina de Café', 10, 299), 1);

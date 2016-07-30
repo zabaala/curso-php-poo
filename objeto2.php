@@ -1,5 +1,6 @@
 <?php
+require_once "vendor/autoload.php";
 
-require_once "class/Produto.php";
+use App\Classes\Produto;
 
 $prod = new Produto('Mochila', 10, 150);

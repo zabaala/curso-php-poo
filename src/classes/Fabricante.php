@@ -1,5 +1,7 @@
 <?
 
+namespace App\Classes;
+
 class Fabricante
 {
     /**

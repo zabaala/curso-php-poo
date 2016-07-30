@@ -1,5 +1,9 @@
 <?
 
+namespace App\Classes;
+
+use App\Interfaces\OrcamentoInterface;
+
 class Orcamento
 {
     private $itens;

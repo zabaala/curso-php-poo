@@ -1,4 +1,7 @@
 <?php
+namespace App\Classes;
+
+use App\Interfaces\OrcamentoInterface;
 
 class Produto implements OrcamentoInterface
 {

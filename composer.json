@@ -1,0 +1,19 @@
+{
+    "name": "zabaala/curso-php-poo",
+    "description": "Fontes da disciplina de OOP do curso de PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mauricio Rodrigues",
+            "email": "mauricio.vsr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

@@ -1,9 +1,10 @@
 <?php
 
-require_once "class/Util.php";
-require_once "class/Produto.php";
-require_once "class/Fabricante.php";
-require_once "class/Caracteristica.php";
+
+require_once 'vendor/autoload.php';
+
+use App\Classes\Fabricante;
+use App\Classes\Produto;
 
 $prod = new Produto('Mochila', 10, 150);
 $fabricante = new Fabricante('HP', 'Av. Paulista', '123.456.789/0001-11');
