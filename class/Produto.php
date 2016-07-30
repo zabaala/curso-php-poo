@@ -128,6 +128,10 @@ class Produto
         }
     }
 
+    public function getPreco() {
+        return $this->preco;
+    }
+
     /**
      * Define o fabricante do produto.
      * @param Fabricante $f
