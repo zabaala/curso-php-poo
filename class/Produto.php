@@ -1,6 +1,6 @@
 <?php
 
-class Produto
+class Produto implements OrcamentoInterface
 {
     /**
      * Descricao do produto.

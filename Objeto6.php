@@ -10,7 +10,8 @@ $contas[] = new ContaCorrente('6677', '1234-56', 100, 500);
 $contas[] = new ContaPoupanca('6678', 'CC.1234-57', 100);
 
 foreach ($contas as $key => $conta) {
-    print "Conta: {$conta->getInfo()}<br>\n";
+
+    print "- Conta: {$conta->getInfo()}<br>\n";
     print " - Saldo Atual {$conta->getSaldo()}<br>\n";
     $conta->depositar(200);
     print ' - Deposito de 200 reais <br>' . PHP_EOL;

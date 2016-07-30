@@ -25,7 +25,7 @@ class Conta
             $this->saldo += $quantia;
         }
     }
-    
+
     public function getSaldo() {
         return $this->saldo;
     }

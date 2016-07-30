@@ -15,7 +15,7 @@ class ContaCorrente extends Conta
      * @param $quantia
      * @return bool
      */
-    public function retirar($quantia) {
+    final public function retirar($quantia) {
         if (($this->saldo + $this->limite) >= $quantia) {
             $this->saldo -= $quantia;
             return true;
@@ -27,4 +27,6 @@ class ContaCorrente extends Conta
     public function getLimite() {
         return $this->limite;
     }
+
+
 }
